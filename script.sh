@@ -4,7 +4,7 @@ dig +short myip.opendns.com @resolver1.opendns.com
 host myip.opendns.com resolver1.opendns.com
 
 # Check conectivity to Router
-FILE=log.log
+FILE=/home/jonasmarquez/github/log.log
 TARGET=192.168.43.1
 
 touch $FILE
